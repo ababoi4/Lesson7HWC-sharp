@@ -30,9 +30,9 @@ void PrintArray(int [,] matrix)
     {
         for(int j = 0; j < matrix.GetLength(1); j++)
         {
-            Console.WriteLine($"{matrix[i,j]}\t");
+            Console.Write($"{matrix[i,j]}\t");
         }   
-        Console.WriteLine();
+       System.Console.WriteLine();
     }
 }
 int numLine = Prompt("Введите количество строк");
